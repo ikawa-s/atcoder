@@ -1,5 +1,7 @@
 # そもそも問題が不明
-s = input()
-t = input()
+s = list(input())
+t = list(input())
 
-print(s,t)
+while s != t:
+    for i in range(len(s)):
+        
