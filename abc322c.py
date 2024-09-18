@@ -11,7 +11,6 @@ a = list(map(int,input().split()))
 #             break
 
 cnt = [0] * (n+1)
-print(cnt)
 ans = [0] * (n+1)
 nxt = n
 
